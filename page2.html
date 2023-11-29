@@ -228,7 +228,7 @@ color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 140vh;
+  height: 65vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
@@ -247,13 +247,6 @@ color: white;
   opacity: 0;
 }
 
-  .panel.active{
-    flex: 5;
-  }
-  .panel.active h3 {
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-  }
 
 @media (max-width: 860) {
   .container {
@@ -267,19 +260,6 @@ color: white;
 }
 </style>
 <script>
-    const panels = document.querySelectorAll('.panel')
-
-panels.forEach((panel) => {
-    panel.addEventListener('click', () => {
-        removeActiveClasses()
-      panel.classList.add('active')
-    })
-})
-function removeActiveClasses() {
-    panels.forEach(panel => {
-    panel.classList.remove('active');
-    });
-}
-</script>
+   </script>
 </body>
 </html>

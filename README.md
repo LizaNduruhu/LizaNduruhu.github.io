@@ -1,2 +1,0 @@
-# LizaNduruhu.github.io
-Hellllllooooo

@@ -20,5 +20,8 @@ body, input {
 body {
   min-width: 1050px; /* if you really want this... */
   min-height: 500px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
 }
 
